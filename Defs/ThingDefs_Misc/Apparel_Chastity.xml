@@ -34,6 +34,10 @@
 			<StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+			<Fertility>-2</Fertility>
+		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
 				<li>Legs</li>
@@ -45,10 +49,6 @@
 				<li>IndustrialBasic</li>
 			</tags>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-			<equippedStatOffsets>
-				<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
-				<Fertility>-2</Fertility>
-			</equippedStatOffsets>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 		<tradeTags>
