@@ -39,6 +39,9 @@
 			<Fertility>-2</Fertility>
 		</equippedStatOffsets>
 		<apparel>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
 			<bodyPartGroups>
 				<li>Legs</li>
 			</bodyPartGroups>
@@ -93,15 +96,14 @@
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<careIfWornByCorpse>true</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
-			<wearPerDay>0</wearPerDay>
 			<bodyPartGroups>
-				<li>Waist</li>
+				<li>Legs</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Belt</li>
+				<li>OnSkin</li>
 			</layers>
 			<developmentalStageFilter>Adult</developmentalStageFilter>
-			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 		<tradeTags>
