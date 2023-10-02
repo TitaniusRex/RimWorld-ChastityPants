@@ -35,7 +35,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.4</SlaveSuppressionOffset>
 			<Fertility>-2</Fertility>
 		</equippedStatOffsets>
 		<apparel>
@@ -86,7 +86,7 @@
 			<EquipDelay>0.2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.4</SlaveSuppressionOffset>
 			<Fertility>-2</Fertility>
 		</equippedStatOffsets>
 		<apparel>
