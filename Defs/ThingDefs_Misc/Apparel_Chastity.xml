@@ -61,7 +61,7 @@
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Apparel_CPChastityBelt</defName>
-		<label>Chastity belt</label>
+		<label>Chastity </label>
 		<description>A simple chastity device.</description>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
