@@ -4,14 +4,14 @@
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Apparel_CPChastityPants</defName>
-		<label>Chastity pants</label>
+		<label>chastity pants</label>
 		<description>A simple set of pants with chastity device.</description>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<displayPriority>265</displayPriority>
 		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ChastityPants/Pants</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/ChastityPants/ChastityPants</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<costStuffCount>40</costStuffCount>
@@ -29,19 +29,18 @@
 			<MaxHitPoints>110</MaxHitPoints>
 			<WorkToMake>1600</WorkToMake>
 			<Mass>0.5</Mass>
-			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.9</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.4</SlaveSuppressionOffset>
-			<Fertility>-2</Fertility>
+				<SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.4</SlaveSuppressionOffset>
+				<Fertility>-2</Fertility>
 		</equippedStatOffsets>
 		<apparel>
 			<countsAsClothingForNudity>true</countsAsClothingForNudity>
-			<careIfWornByCorpse>true</careIfWornByCorpse>
-			<careIfDamaged>false</careIfDamaged>
+			<careIfDamaged>true</careIfDamaged>
 			<bodyPartGroups>
 				<li>Legs</li>
 			</bodyPartGroups>
@@ -51,34 +50,37 @@
 			<tags>
 				<li>IndustrialBasic</li>
 			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 		<tradeTags>
 			<li>BasicClothing</li>
 		</tradeTags>
+		<smeltProducts>
+			<Steel>1</Steel>
+		</smeltProducts>
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>Apparel_CPChastityBelt</defName>
-		<label>Chastity </label>
+		<label>chastity device</label>
 		<description>A simple chastity device.</description>
-		<recipeMaker>
-			<researchPrerequisite>ComplexClothing</researchPrerequisite>
-			<displayPriority>265</displayPriority>
-		</recipeMaker>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/ChastityPants/Pants</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/ChastityPants/chastitydevice</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>5</Steel>
 		</costList>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
+		<recipeMaker>
+			<displayPriority>265</displayPriority>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
 		<thingCategories>
 			<li>ApparelMisc</li>
 		</thingCategories>
@@ -94,7 +96,6 @@
 		</equippedStatOffsets>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<careIfWornByCorpse>true</careIfWornByCorpse>
 			<careIfDamaged>false</careIfDamaged>
 			<bodyPartGroups>
 				<li>Legs</li>
@@ -105,12 +106,14 @@
 			<developmentalStageFilter>Adult</developmentalStageFilter>
 			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 		</apparel>
+		<smeltProducts>
+			<Steel>1</Steel>
+		</smeltProducts>
 		<colorGenerator Class="ColorGenerator_StandardApparel"/>
 		<tradeTags>
 			<li>BasicClothing</li>
 		</tradeTags>
 	</ThingDef>
-
 
 
 </Defs>
