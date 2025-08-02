@@ -15,7 +15,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 	</graphicData>
 	<costStuffCount>40</costStuffCount>
-		<costList>
+	<costList>
 			<Steel>5</Steel>
 		</costList>
 		<stuffCategories>
@@ -118,6 +118,7 @@
 
 
 </Defs>
+
 
 
 
