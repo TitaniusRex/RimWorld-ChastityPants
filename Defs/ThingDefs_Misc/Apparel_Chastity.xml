@@ -13,7 +13,7 @@
 	<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ChastityPants/ChastityPants</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+	</graphicData>
 		<costStuffCount>40</costStuffCount>
 		<costList>
 			<Steel>5</Steel>
@@ -118,6 +118,7 @@
 
 
 </Defs>
+
 
 
 
