@@ -2,7 +2,7 @@
 
 <Defs>
 
-	<ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="ApparelMakeableBase">
 		<defName>Apparel_CPChastityPants</defName>
 		<label>chastity pants</label>
 		<description>A simple set of pants with chastity device.</description>
@@ -114,6 +114,7 @@
 			<li>BasicClothing</li>
 		</tradeTags>
 	</ThingDef>
+
 
 
 </Defs>
