@@ -9,7 +9,7 @@
 	<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<displayPriority>265</displayPriority>
-		</recipeMaker>
+	</recipeMaker>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ChastityPants/ChastityPants</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -118,6 +118,7 @@
 
 
 </Defs>
+
 
 
 
