@@ -3,7 +3,7 @@
 <Defs>
 
     <ThingDef ParentName="ApparelMakeableBase">
-		<defName>Apparel_CPChastityPants</defName>
+	<defName>Apparel_CPChastityPants</defName>
 		<label>chastity pants</label>
 		<description>A simple set of pants with chastity device.</description>
 		<recipeMaker>
@@ -118,3 +118,4 @@
 
 
 </Defs>
+
