@@ -6,7 +6,7 @@
 	<defName>Apparel_CPChastityPants</defName>
 	<label>chastity pants</label>
 	<description>A simple set of pants with chastity device.</description>
-		<recipeMaker>
+	<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<displayPriority>265</displayPriority>
 		</recipeMaker>
@@ -118,6 +118,7 @@
 
 
 </Defs>
+
 
 
 
