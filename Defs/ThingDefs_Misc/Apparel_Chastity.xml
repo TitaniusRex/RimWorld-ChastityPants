@@ -5,8 +5,8 @@
     <ThingDef ParentName="ApparelMakeableBase">
 	    <defName>Apparel_CPChastityPants</defName>
 	    <label>chastity pants</label>
-	<description>A simple set of pants with chastity device.</description>
-	<recipeMaker>
+	    <description>A simple set of pants with chastity device.</description>
+	    <recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<displayPriority>265</displayPriority>
 	</recipeMaker>
